@@ -2,7 +2,7 @@ import "./App.css";
 import { useToggle } from "./useSwitchVisibility";
 
 function App() {
-  const [visible, toggle] = useToggle();
+  const [visible, toggle] = useToggle(false);
 
   return (
     <div className="App">
